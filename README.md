@@ -20,3 +20,9 @@ yarn dev
 ```
 
 Deploy it to the cloud with [Vercel](https://vercel.com/new?utm_source=github&utm_medium=readme&utm_campaign=next-example) ([Documentation](https://nextjs.org/docs/deployment)).
+
+
+### End Result
+
+![Screenshot of End Result Listing](./public/Screen%20Shot%202022-08-25%20at%205.04.27%20AM%20(2).png)
+![Screenshot of End Result for Post Page](./public/Screen%20Shot%202022-08-25%20at%205.07.37%20AM%20(2).png)
