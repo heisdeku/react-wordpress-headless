@@ -1,27 +1,22 @@
-# Next.js + Tailwind CSS Example
+# React Wordpres Headless CMS
 
-This example shows how to use [Tailwind CSS](https://tailwindcss.com/) [(v3.0)](https://tailwindcss.com/blog/tailwindcss-v3) with Next.js. It follows the steps outlined in the official [Tailwind docs](https://tailwindcss.com/docs/guides/nextjs).
+So, seeing for some past few months and some weeks that it's possible to turn the most powerful CMS I know of, `wordpress` into an API and give it the ability to be plugged into my static sites with any frontend framework, lit up my curiousity and decided to play around before going to build my friend new blog site with Next JS & Wordpres
 
-## Deploy your own
+## Stacks
 
-Deploy the example using [Vercel](https://vercel.com?utm_source=github&utm_medium=readme&utm_campaign=next-example) or preview live with [StackBlitz](https://stackblitz.com/github/vercel/next.js/tree/canary/examples/with-tailwindcss)
+- NextJS
+- Local (Gave me the ability to run wordpress locally)
+- Axios (data fetching)
+- html react parser (turn JSON contents for post body into html nodes)
 
-[![Deploy with Vercel](https://vercel.com/button)](https://vercel.com/new/git/external?repository-url=https://github.com/vercel/next.js/tree/canary/examples/with-tailwindcss&project-name=with-tailwindcss&repository-name=with-tailwindcss)
-
-## How to use
-
-Execute [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app) with [npm](https://docs.npmjs.com/cli/init), [Yarn](https://yarnpkg.com/lang/en/docs/cli/create/), or [pnpm](https://pnpm.io) to bootstrap the example:
+## How to run
 
 ```bash
-npx create-next-app --example with-tailwindcss with-tailwindcss-app
+yarn install
 ```
 
 ```bash
-yarn create next-app --example with-tailwindcss with-tailwindcss-app
-```
-
-```bash
-pnpm create next-app --example with-tailwindcss with-tailwindcss-app
+yarn dev
 ```
 
 Deploy it to the cloud with [Vercel](https://vercel.com/new?utm_source=github&utm_medium=readme&utm_campaign=next-example) ([Documentation](https://nextjs.org/docs/deployment)).
